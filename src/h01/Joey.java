@@ -7,6 +7,7 @@ public class Joey extends Applet {
 
     @Override
     public void init() {
+        setBackground(Color.pink);
         super.init();
     }
 
