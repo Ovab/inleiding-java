@@ -48,6 +48,6 @@ public class H4_Praktijk extends Applet {
         g.setColor(Color.black);
         g.drawArc(355, 140, 100, 100, 0, 360);
         g.drawString("Cirkel.", 390, 270);
-        
+
     }
 }
