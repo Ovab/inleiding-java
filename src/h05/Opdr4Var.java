@@ -1,24 +1,26 @@
-package h01;
+package h05;
 
 import java.awt.*;
 import java.applet.*;
 
 public class Opdr4Var extends Applet {
 
+    //de Gewichten
+    int gewichtValerie = 40;
+    int gewichtHans = 80;
+    int gewichtJeroen = 100;
+    int yasX = 150;
+
     public void init() {
     }
 
     public void paint(Graphics g) {
-        //de Gewichten
-        int GewichtValerie = 40;
-        int GewichtHans = 80;
-        int GewichtJeroen = 100;
 
         setBackground(Color.WHITE);
         //opdracht 4.4 maar dan met variabelen
 
         //lijntjes
-        g.drawLine(200, 150,300,150);
+        g.drawLine(200, yasX,300,yasX);
         g.drawLine(200, 130,300,130);
         g.drawLine(200, 110,300,110);
         g.drawLine(200, 90,300,90);
@@ -40,13 +42,13 @@ public class Opdr4Var extends Applet {
         //staven
         //valerie
         g.setColor(Color.red);
-        g.fillRect(210,110, 10, GewichtValerie);
+        g.fillRect(210,yasX-gewichtValerie, 10, gewichtValerie);
         //Hans
         g.setColor(Color.GREEN);
-        g.fillRect(245,70, 10, GewichtHans);
+        g.fillRect(245,yasX-gewichtHans, 10, gewichtHans);
         //Jeroen
         g.setColor(Color.BLUE);
-        g.fillRect(280,50, 10, GewichtJeroen);
+        g.fillRect(280,yasX-gewichtJeroen, 10, gewichtJeroen);
         //namen
         g.setColor(Color.BLACK);
         g.drawString("Valerie", 200, 165);
