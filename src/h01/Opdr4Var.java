@@ -9,8 +9,13 @@ public class Opdr4Var extends Applet {
     }
 
     public void paint(Graphics g) {
+        //de Gewichten
+        int GewichtValerie = 40;
+        int GewichtHans = 80;
+        int GewichtJeroen = 100;
+
         setBackground(Color.WHITE);
-        //opdracht 4.4
+        //opdracht 4.4 maar dan met variabelen
 
         //lijntjes
         g.drawLine(200, 150,300,150);
@@ -33,21 +38,21 @@ public class Opdr4Var extends Applet {
 
 
         //staven
-
         //valerie
         g.setColor(Color.red);
-        g.fillRect(210,110, 10, 40);
+        g.fillRect(210,110, 10, GewichtValerie);
         //Hans
         g.setColor(Color.GREEN);
-        g.fillRect(245,70, 10, 80);
+        g.fillRect(245,70, 10, GewichtHans);
         //Jeroen
-        g.setColor(Color.pink);
-        g.fillRect(280,50, 10, 100);
+        g.setColor(Color.BLUE);
+        g.fillRect(280,50, 10, GewichtJeroen);
         //namen
-        g.setColor(Color.white);
+        g.setColor(Color.BLACK);
         g.drawString("Valerie", 200, 165);
         g.drawString("Hans", 237, 175);
         g.drawString("Jeroen", 270, 165);
+
 
     }
 }
