@@ -1,4 +1,4 @@
-package h04;
+package h07;
 
 import java.applet.Applet;
 import java.awt.*;
