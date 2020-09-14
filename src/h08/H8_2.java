@@ -12,7 +12,6 @@ public class H8_2 extends Applet {
     Button vrouw;
     Button manlln;
     Button vrouwlln;
-    Button totaal;
 
     TextField manT;
     TextField vrouwT;
@@ -38,19 +37,16 @@ public class H8_2 extends Applet {
         vrouw = new Button("vrouw");
         manlln = new Button("Joch");
         vrouwlln = new Button("Vrouwlijke leerling");
-        totaal = new Button("totaal");
 
         man.addActionListener( new H8_2.KnopMListener() );
         vrouw.addActionListener( new H8_2.KnopVListener() );
         manlln.addActionListener( new H8_2.KnopMLListener() );
         vrouwlln.addActionListener( new H8_2.KnopVLListener() );
-        totaal.addActionListener( new H8_2.KnoptotListener() );
 
         add (man);
         add (vrouw);
         add (manlln);
         add (vrouwlln);
-        add (totaal);
 
         add (manT);
         add (vrouwT);
@@ -77,6 +73,7 @@ public class H8_2 extends Applet {
             methM++;
             totaalM++;
             manT.setText(String.valueOf(methM));
+            totaalT.setText(String.valueOf(totaalM));
             repaint();
         }
     }
@@ -86,6 +83,7 @@ public class H8_2 extends Applet {
             methV++;
             totaalM++;
             vrouwT.setText(String.valueOf(methV));
+            totaalT.setText(String.valueOf(totaalM));
             repaint();
         }
     }
@@ -95,6 +93,7 @@ public class H8_2 extends Applet {
             methML++;
             totaalM++;
             manllnT.setText(String.valueOf(methML));
+            totaalT.setText(String.valueOf(totaalM));
             repaint();
         }
     }
@@ -104,16 +103,11 @@ public class H8_2 extends Applet {
             methVL++;
             totaalM++;
             vrouwllnT.setText(String.valueOf(methVL));
-            repaint();
-        }
-    }
-
-    class KnoptotListener implements ActionListener	{
-        public void actionPerformed( ActionEvent e ) {
             totaalT.setText(String.valueOf(totaalM));
             repaint();
         }
     }
+    
 
 
 }
