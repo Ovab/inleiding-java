@@ -30,8 +30,6 @@ public class H8_3 extends Applet {
             String s = tekstvak.getText();
             getal = Double.parseDouble( s );
             getal = getal*1.21;
-            //Je kan deze regels ook samenvoegen
-            //getal = Double.parseDouble(tekstvak.getText());
             repaint();
         }
     }
