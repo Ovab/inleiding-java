@@ -1,32 +1,31 @@
 package h10;
 
-import java.applet.Applet;
 import java.awt.*;
+import java.applet.*;
 import java.awt.event.*;
 
+
 public class H10_3 extends Applet {
-    TextField txt;
-    String tekst, s;
+    TextField tekstvak;
+    String s, tekst;
     int maand;
 
     public void init() {
-        txt = new TextField("", 30);
-        txt.addActionListener(new TekstvakListener() );
-        add(txt);
+        tekstvak = new TextField("", 20);
+        tekstvak.addActionListener( new TekstvakListener() );
+        tekst = "...";
+        add(tekstvak);
     }
-
 
     public void paint(Graphics g) {
-    g.drawString("jou in getikte maand is " + tekst + " dagen", 50, 50);
-
+        g.drawString("Jou ingetikte maand is: "+ tekst +  " en heeft dagen", 50, 60 );
     }
 
-    //classes
     class TekstvakListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            s = txt.getText();
+            s = tekstvak.getText();
             maand = Integer.parseInt(s);
-            switch (maand) {
+            switch(maand) {
                 case 1:
                     tekst = "Januari en heeft 31";
                     break;
@@ -67,7 +66,7 @@ public class H10_3 extends Applet {
                     tekst = "Typ een goed nummer aub";
                     break;
             }
+            repaint();
         }
     }
 }
-//1, 3, 5, 7, 8, 10, 12
