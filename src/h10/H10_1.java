@@ -16,6 +16,8 @@ public class H10_1 extends Applet {
         txt = new TextField("", 30);
         txt.addActionListener(new TekstvakListener());
         add(txt);
+        tekst = "";
+        tekst2 = "";
     }
 
 
