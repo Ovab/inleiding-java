@@ -15,7 +15,7 @@ public class H10_5 extends Applet {
     Double engin;
     Double wisin;
     Double softwarein;
-    Double avr1;
+    Double gem;
     Double avr;
 
     String nltxt, engtxt, wistxt, softtxt, geslaagd;
@@ -53,7 +53,7 @@ public class H10_5 extends Applet {
         g.drawString(engtxt + " voor engels", 50, 70);
         g.drawString(wistxt + " voor wiskunde", 50, 90);
         g.drawString(softtxt + " voor software", 50, 110);
-        g.drawString("Het gemmidelde is" + avr1, 50, 130);
+        g.drawString("Het gemmidelde is " + avr, 50, 130);
         g.drawString(geslaagd, 50, 150);
     }
 
@@ -62,7 +62,7 @@ public class H10_5 extends Applet {
             String a = nlVak.getText();
             nlin = Double.parseDouble(a);
             avr = nlin / 1;
-            if (nlin > 6) {
+            if (nlin > 5.999) {
                 nltxt = "U heeft een voldoende";
             } else {
                 nltxt = "U heeft een onvoldoende";
@@ -76,7 +76,7 @@ public class H10_5 extends Applet {
             String b = engVAK.getText();
             engin = Double.parseDouble(b);
             avr = nlin + engin / 2;
-            if (engin > 6) {
+            if (engin > 5.999) {
                 engtxt = "U heeft een voldoende";
             } else {
                 engtxt = "U heeft een onvoldoende";
@@ -91,7 +91,7 @@ public class H10_5 extends Applet {
             String c = wisVAK.getText();
             wisin = Double.parseDouble(c);
             avr = nlin + engin + wisin / 3;
-            if (wisin > 6) {
+            if (wisin > 5.999) {
                 wistxt = "U heeft een voldoende";
             } else {
                 wistxt = "U heeft een onvoldoende";
@@ -105,7 +105,7 @@ public class H10_5 extends Applet {
         public void actionPerformed(ActionEvent e) {
             String d = softwareVAK.getText();
             softwarein = Double.parseDouble(d);
-            if (softwarein > 6) {
+            if (softwarein > 5.999) {
                 softtxt = "U heeft een voldoende";
             } else {
                 softtxt = "U heeft een onvoldoende";
@@ -117,8 +117,8 @@ public class H10_5 extends Applet {
 
     class TotalListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            avr1 = nlin + engin + wisin + softwareVAK;
-            avr = avr1 / 4;
+            gem = nlin + engin + wisin + softwarein;
+            avr = gem/4;
             if (avr > 6) {
                 geslaagd = "U bent geslaagd!";
             } else {
