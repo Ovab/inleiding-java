@@ -11,13 +11,12 @@ public class H11_3 extends Applet {
 
     public void init() {
 
-
     }
 
     public void paint(Graphics g) {
         for(teller = 0; teller <11; teller++) {
             y += 1;
-            x += 20;
+            x += 20; 
             g.drawString("" +y, 50, x);
         }
     }

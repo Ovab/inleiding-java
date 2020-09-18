@@ -70,56 +70,56 @@
       <recent name="C:\Users\bavof\Documents\GitHub\inleiding-java\src\h07" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.H11_2">
-    <configuration name="H10_5" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.H10_5" />
+  <component name="RunManager" selected="Applet.Praktijk">
+    <configuration name="H11_6" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.H11_6" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H11_2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.H11_2" />
+    <configuration name="H11_7" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.H11_7" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H8_1" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h08.H8_1" />
+    <configuration name="H11_8" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.H11_8" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H11_9" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.H11_9" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Praktijk" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h10.Praktijk" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oprd11_1" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.oprd11_1" />
+      <option name="MAIN_CLASS_NAME" value="h11.Praktijk" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Applet.H10_5" />
+      <item itemvalue="Applet.H11_6" />
+      <item itemvalue="Applet.H11_7" />
+      <item itemvalue="Applet.H11_8" />
+      <item itemvalue="Applet.H11_9" />
       <item itemvalue="Applet.Praktijk" />
-      <item itemvalue="Applet.H8_1" />
-      <item itemvalue="Applet.oprd11_1" />
-      <item itemvalue="Applet.H11_2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.H11_2" />
-        <item itemvalue="Applet.oprd11_1" />
         <item itemvalue="Applet.Praktijk" />
-        <item itemvalue="Applet.H8_1" />
-        <item itemvalue="Applet.H10_5" />
+        <item itemvalue="Applet.H11_9" />
+        <item itemvalue="Applet.H11_8" />
+        <item itemvalue="Applet.H11_7" />
+        <item itemvalue="Applet.H11_6" />
       </list>
     </recent_temporary>
   </component>
@@ -172,53 +172,57 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="569" y="294" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600089114764" />
+    <state x="623" y="399" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600414654019">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="623" y="399" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600414654019" />
     <state x="620" y="259" key="FileChooserDialogImpl" timestamp="1599460587033">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="259" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1599460587033" />
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
-    <state width="1637" height="336" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.0.center" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
-    <state width="1637" height="336" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.0.left" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
-    <state width="1637" height="336" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.0.right" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
-    <state width="1637" height="336" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599816211594" />
-    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.1.center" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599816211593" />
-    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.1.left" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599816211593" />
-    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1600340054046">
+    <state width="1637" height="336" key="GridCell.Tab.1.right" timestamp="1600425410118">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="336" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600340054046" />
+    <state width="1637" height="336" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600425410118" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599816211593" />
     <state x="426" y="321" key="RollbackChangesDialog" timestamp="1600250266717">
       <screen x="0" y="0" width="1680" height="1010" />
@@ -247,6 +251,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="407" y="233" width="865" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600242346213" />
+    <state x="-1538" y="0" width="1438" height="998" key="dock-window-1" timestamp="1600417718467">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1538" y="0" width="1438" height="998" key="dock-window-1/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600417718467" />
     <state x="547" y="104" width="585" height="801" key="find.popup" timestamp="1600329885847">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
