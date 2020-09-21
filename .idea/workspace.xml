@@ -70,16 +70,16 @@
       <recent name="C:\Users\bavof\Documents\GitHub\inleiding-java\src\h07" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Praktijk">
-    <configuration name="H11_4" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.H11_4" />
+  <component name="RunManager" selected="Applet.H11_3">
+    <configuration name="H11_3" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.H11_3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H11_7" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.H11_7" />
+    <configuration name="H11_4" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.H11_4" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,19 +107,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Applet.H11_7" />
       <item itemvalue="Applet.H11_8" />
       <item itemvalue="Applet.H11_9" />
       <item itemvalue="Applet.Praktijk" />
       <item itemvalue="Applet.H11_4" />
+      <item itemvalue="Applet.H11_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.H11_3" />
         <item itemvalue="Applet.Praktijk" />
         <item itemvalue="Applet.H11_4" />
         <item itemvalue="Applet.H11_9" />
         <item itemvalue="Applet.H11_8" />
-        <item itemvalue="Applet.H11_7" />
       </list>
     </recent_temporary>
   </component>
@@ -180,30 +180,30 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="259" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1599460587033" />
-    <state width="1637" height="149" key="GridCell.Tab.0.bottom" timestamp="1600682541930">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom" timestamp="1600688879322">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="149" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600682541930" />
-    <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="149" key="GridCell.Tab.0.center" timestamp="1600682541930">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1877" height="154" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600688879322" />
+    <state width="1877" height="154" key="GridCell.Tab.0.center" timestamp="1600688879322">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="149" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600682541930" />
-    <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="149" key="GridCell.Tab.0.left" timestamp="1600682541930">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1877" height="154" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600688879322" />
+    <state width="1877" height="154" key="GridCell.Tab.0.left" timestamp="1600688879321">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="149" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600682541930" />
-    <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
-    <state width="1637" height="149" key="GridCell.Tab.0.right" timestamp="1600682541930">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="1877" height="154" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600688879321" />
+    <state width="1877" height="154" key="GridCell.Tab.0.right" timestamp="1600688879322">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="149" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600682541930" />
-    <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600083777705" />
+    <state width="1877" height="154" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600688879322" />
     <state width="1637" height="336" key="GridCell.Tab.1.bottom" timestamp="1600682541926">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -243,10 +243,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="445" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600069961292" />
-    <state x="657" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599460259073">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="751" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600684014956">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="418" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1599460259073" />
+    <state x="751" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600684014956" />
     <state x="407" y="233" width="865" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600242346213">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -272,5 +273,9 @@
     </state>
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600032070160" />
     <state x="575" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599807443849" />
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600688787388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600688787388" />
   </component>
 </project>
