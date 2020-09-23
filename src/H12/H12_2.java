@@ -10,7 +10,10 @@ int teller;
 
     public void init() {
     knop = new Button[25];
-            add (knop);
+        for (int i = 0; i < knop.length; i++) {
+            knop[i] = new Button(""+ i);
+            add (knop[i]);
+        }
     }
 
 

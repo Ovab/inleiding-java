@@ -5,21 +5,20 @@ import java.applet.*;
 
 public class H12_1 extends Applet {
     double[] salaris;
-    double[] kopie;
     double totaal;
     int teller;
 
     public void init() {
         salaris = new double[10];
-        kopie = new double[10];
 
         for (teller = 0; teller < salaris.length; teller++) {
             salaris[teller] = 100 * teller + 100;
         }
+
         for (teller = 0; teller < salaris.length; teller++) {
-            kopie[teller] = salaris[teller];
-            totaal = kopie [teller]/ salaris.length;
+            totaal += salaris [teller];
         }
+        totaal = totaal/salaris.length;
     }
 
         public void paint (Graphics g){
