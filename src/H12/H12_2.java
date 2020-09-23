@@ -9,14 +9,9 @@ int teller;
 
 
     public void init() {
-    knop = new Button [25];
-
-        for (teller = 0; teller < 25; teller++) {
-            add(knop)[25];
-        }
-
+    knop = new Button[25];
+            add (knop);
     }
-
 
 
 
