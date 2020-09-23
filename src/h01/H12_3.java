@@ -35,8 +35,21 @@ public class H12_3 extends Applet {
         public void actionPerformed(ActionEvent e) {
             String b = veld.getText();
             Double veldin = Double.parseDouble(b);
-            if (veldin > 10);
-            {
+
+            String b = veld2.getText();
+            Double veld2in = Double.parseDouble(b);
+
+            String b = einveld.getText();
+            Double einveldin = Double.parseDouble(b);
+
+            String b = field.getText();
+            Double fieldin = Double.parseDouble(b);
+
+            String b = field2.getText();
+            Double field2in = Double.parseDouble(b);
+
+            if (veldin > veld2in); {
+                uit = vel
             }
             repaint();
         }
