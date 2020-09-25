@@ -1,20 +1,24 @@
 package h01;
 
+import java.util.*;
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class H12_3 extends Applet {
+    String uit;
     TextField veld, field, veld2, field2, einveld;
     Button k;
+    int[] namen;
 
     public void init() {
-        veld = new TextField("", 10);
-        veld2 = new TextField("", 10);
-        einveld = new TextField("", 10);
-        field = new TextField("", 10);
-        field2 = new TextField("", 10);
+
+        veld = new TextField(""+namen, 10);
+        veld2 = new TextField(""+namen, 10);
+        einveld = new TextField(""+namen, 10);
+        field = new TextField(""+namen, 10);
+        field2 = new TextField(""+namen, 10);
         k = new Button("ok");
 
 
@@ -26,34 +30,35 @@ public class H12_3 extends Applet {
         add (field);
         add (field2);
         add (k);
+        //////
     }
 
     public void paint(Graphics g) {
     }
-
+//classes
     class InputListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             String b = veld.getText();
-            Double veldin = Double.parseDouble(b);
+            int veldin = Integer.parseInt(b);
 
-            String b = veld2.getText();
-            Double veld2in = Double.parseDouble(b);
+            String a = veld2.getText();
+            int veld2in = Integer.parseInt(a);
 
-            String b = einveld.getText();
-            Double einveldin = Double.parseDouble(b);
+            String c = einveld.getText();
+            int einveldin = Integer.parseInt(c);
 
-            String b = field.getText();
-            Double fieldin = Double.parseDouble(b);
+            String d = field.getText();
+            int fieldin = Integer.parseInt(d);
 
-            String b = field2.getText();
-            Double field2in = Double.parseDouble(b);
-
-            if (veldin > veld2in); {
-                uit = vel
+            String f = field2.getText();
+            int field2in = Integer.parseInt(f);
+            //bloep
+            for (int  i = 0; i < 5; i++) {
+                int[] namen = { veldin, veld2in, einveldin, fieldin, field2in};
+                Arrays.sort(namen);
             }
+
             repaint();
         }
     }
-
-
 }
