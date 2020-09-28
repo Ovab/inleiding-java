@@ -7,35 +7,40 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TEst extends Applet {
-    TextField [] field;
-    String uit;
-    TextField veld;
-    Button k;
+    int [] getallen;
+    TextField [] fieldarray;
+    Button okknop;
+    int flreal;
 
     public void init() {
-        field = new TextField[5];
-        for (int i = 0; i < field.length; i++) {
-            field[i] = new TextField("");
-            add (field[i]);
+        fieldarray = new TextField[5];
+        for (int i = 0; i < fieldarray.length; i++) {
+            fieldarray[i] = new TextField("");
+            add (fieldarray[i]);
         }
-        k = new Button("ok");
-
-        k.addActionListener(new InputListener());
-        add (k);
+        flreal = fieldarray.length - 1;
+        okknop = new Button("ok");
+        veldin = 5;
+        okknop.addActionListener(new InputListener());
+        add (okknop);
     }
 
     public void paint(Graphics g) {
+
     }
+
     //classes
     class InputListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            String b = veld[5].getText();
-            int veldin = Integer.parseInt(b);
             //bloep
-            for (int  i = 0; i < 5; i++) {
-                int[] namen = {veldin};
-                Arrays.sort(namen);
+            for (int  i = 0; i < fieldarray.length; i++) {
+                String b = fieldarray[i].getText();
+                int veldin = Integer.parseInt(b);
+                System.out.println(getallen[i]);
+                getallen[i]=veldin;
+                fieldarray[flreal].setText(String.valueOf(getallen));
             }
+            Arrays.sort(getallen);
 
             repaint();
         }
