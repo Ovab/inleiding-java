@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TEst extends Applet {
+    int [] veldin;
     int [] getallen;
     TextField [] fieldarray;
     Button okknop;
@@ -20,7 +21,6 @@ public class TEst extends Applet {
         }
         flreal = fieldarray.length - 1;
         okknop = new Button("ok");
-        veldin = 5;
         okknop.addActionListener(new InputListener());
         add (okknop);
     }
@@ -35,13 +35,12 @@ public class TEst extends Applet {
             //bloep
             for (int  i = 0; i < fieldarray.length; i++) {
                 String b = fieldarray[i].getText();
-                int veldin = Integer.parseInt(b);
-                System.out.println(getallen[i]);
-                getallen[i]=veldin;
-                fieldarray[flreal].setText(String.valueOf(getallen));
+                veldin [i] = Integer.parseInt(b);
+                System.out.println(veldin[i]);
+                Arrays.sort(getallen);
             }
-            Arrays.sort(getallen);
-
+            for (int i = 0; i < fieldarray.length; i++) {
+            }
             repaint();
         }
     }
