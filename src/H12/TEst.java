@@ -14,6 +14,7 @@ public class TEst extends Applet {
     int flreal;
 
     public void init() {
+        getallen = new int[5];
         fieldarray = new TextField[5];
         for (int i = 0; i < fieldarray.length; i++) {
             fieldarray[i] = new TextField("");
@@ -35,11 +36,11 @@ public class TEst extends Applet {
             //bloep
             for (int  i = 0; i < fieldarray.length; i++) {
                 String b = fieldarray[i].getText();
-                veldin [i] = Integer.parseInt(b);
-                System.out.println(veldin[i]);
-                Arrays.sort(getallen);
+                getallen[i] = Integer.parseInt(b);
             }
+            Arrays.sort(getallen);
             for (int i = 0; i < fieldarray.length; i++) {
+                fieldarray[i].setText(""+getallen[i]);
             }
             repaint();
         }
