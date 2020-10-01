@@ -10,9 +10,8 @@ public class H12_4 extends Applet {
     int gezocht;
     TextField txtfield;
     Button okeknop;
-    String outbackup;
     int out;
-    boolean jesno = false;
+    boolean jesno;
 
 
 
@@ -22,7 +21,7 @@ public class H12_4 extends Applet {
         txtfield = new TextField("", 10);
         add(txtfield);
 
-        okeknop = new Button("BLEEEP");
+        okeknop = new Button("Confrim");
         add(okeknop);
         okeknop.addActionListener(new InputListener());
     }
@@ -30,7 +29,7 @@ public class H12_4 extends Applet {
 
     public void paint(Graphics g) {
         if (jesno == true) {
-            g.drawString("de waarde is gevonden " + out, 50 ,100);
+            g.drawString("Number found: index "+ out, 50 ,120);
         }
         if (jesno == false) {
             g.drawString("ERROR: FUNNY NUMBER NOT FOUND", 50 ,120);
@@ -40,7 +39,7 @@ public class H12_4 extends Applet {
     //classes
     class InputListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-
+            repaint();
             searching [0] = 69;
             searching [1] = 69420;
             searching [2] = 420;
@@ -52,17 +51,20 @@ public class H12_4 extends Applet {
             System.out.println("input is "+ gezocht);
             //is the number funny
             for (int i = 0; i < searching.length; i++) {
-                System.out.println("i is bij "+out);
+                out = i;
+                System.out.println("i is at "+out);
 
                 System.out.println(searching[i]);
                 if (gezocht == searching [i]) {
-                    out = i;
                     jesno = true;
+                    repaint();
+                    break;
                 }
+
                 else {
                     jesno = false;
+                    repaint();
                 }
-                repaint();
             }
         }
     }
