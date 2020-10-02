@@ -15,7 +15,6 @@ public class H12_6 extends Applet {
     boolean jesno;
 
 
-
     public void init() {
 
         searching = new int[5];
@@ -30,7 +29,7 @@ public class H12_6 extends Applet {
 
     public void paint(Graphics g) {
         if (jesno == true) {
-            g.drawString("Number found: index "+ out + "en komt " + times + " keer voor", 50 ,120);
+            g.drawString("Number found: index "+ out + " en komt " + times + " keer voor", 50 ,120);
         }
         if (jesno == false) {
             g.drawString("ERROR: FUNNY NUMBER NOT FOUND", 50 ,120);
@@ -60,9 +59,11 @@ public class H12_6 extends Applet {
                 if (gezocht == searching [i]) {
                     jesno = true;
                     out = i;
+                    if(searching[i] == 420){
+                        times++;
+                    }
                     repaint();
-                    //accidentally did 12.5 here XD anyway here the loop stops if the number has been found
-                    break;
+                    //accidentally did 12.5 here XD,  anyway here the loop stops if the number has been found
                 }
 
                 else {
