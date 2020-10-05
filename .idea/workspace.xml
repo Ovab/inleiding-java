@@ -67,7 +67,7 @@
       <recent name="C:\Users\bavof\Documents\GitHub\inleiding-java\src\h07" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Praktijk">
+  <component name="RunManager" selected="Applet.Pratijk_2_0">
     <configuration name="H12_4" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="H12.H12_4" />
       <module name="inleiding-java" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Praktijk" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="H12.Praktijk" />
+    <configuration name="Pratijk_2_0" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="H12.Pratijk_2_0" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,13 +106,13 @@
     <list>
       <item itemvalue="Applet.H12_4" />
       <item itemvalue="Applet.H12_6" />
-      <item itemvalue="Applet.Praktijk" />
       <item itemvalue="Applet.Tekening" />
       <item itemvalue="Applet.bleep" />
+      <item itemvalue="Applet.Pratijk_2_0" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.Praktijk" />
+        <item itemvalue="Applet.Pratijk_2_0" />
         <item itemvalue="Applet.bleep" />
         <item itemvalue="Applet.H12_6" />
         <item itemvalue="Applet.H12_4" />
@@ -169,10 +169,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="FINALLLY 12.3!!!!!!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="956" height="1010" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601282178702">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="362" y="0" width="956" height="1010" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601902423946">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="362" y="0" width="956" height="1010" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600845993314" />
+    <state x="362" y="0" width="956" height="1010" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601902423946" />
     <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601282178702" />
     <state x="645" y="211" key="#com.intellij.ide.util.MemberChooser" timestamp="1600089851460">
       <screen x="0" y="0" width="1680" height="1010" />
@@ -288,10 +288,10 @@
     </state>
     <state x="539" y="233" key="run.anything.popup/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601465349530" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601897500239" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1600032070160">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1601902208676">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600032070160" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601902208676" />
     <state x="575" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599807443849" />
     <state x="682" y="431" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1600688787388">
       <screen x="0" y="0" width="1920" height="1040" />
