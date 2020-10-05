@@ -67,14 +67,7 @@
       <recent name="C:\Users\bavof\Documents\GitHub\inleiding-java\src\h07" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Praktijk">
-    <configuration name="H12_3" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="H12.H12_3" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Applet.bleep">
     <configuration name="H12_4" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="H12.H12_4" />
       <module name="inleiding-java" />
@@ -103,20 +96,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="bleep" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bleep" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Applet.H12_3" />
       <item itemvalue="Applet.H12_4" />
       <item itemvalue="Applet.H12_6" />
       <item itemvalue="Applet.Praktijk" />
       <item itemvalue="Applet.Tekening" />
+      <item itemvalue="Applet.bleep" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.bleep" />
         <item itemvalue="Applet.Praktijk" />
         <item itemvalue="Applet.H12_6" />
         <item itemvalue="Applet.H12_4" />
         <item itemvalue="Applet.Tekening" />
-        <item itemvalue="Applet.H12_3" />
       </list>
     </recent_temporary>
   </component>
@@ -199,30 +199,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="421" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601282289674" />
-    <state width="1637" height="128" key="GridCell.Tab.0.bottom" timestamp="1601891479228">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="914" height="132" key="GridCell.Tab.0.bottom" timestamp="1601897342582">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="128" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601891479228" />
-    <state width="1877" height="134" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601633438931" />
-    <state width="1637" height="128" key="GridCell.Tab.0.center" timestamp="1601891479228">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="914" height="132" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601897342582" />
+    <state width="914" height="132" key="GridCell.Tab.0.center" timestamp="1601897342582">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="128" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601891479228" />
-    <state width="1877" height="134" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601633438930" />
-    <state width="1637" height="128" key="GridCell.Tab.0.left" timestamp="1601891479227">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="914" height="132" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601897342582" />
+    <state width="914" height="132" key="GridCell.Tab.0.left" timestamp="1601897342581">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="128" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601891479227" />
-    <state width="1877" height="134" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601633438930" />
-    <state width="1637" height="128" key="GridCell.Tab.0.right" timestamp="1601891479228">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state width="914" height="132" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601897342581" />
+    <state width="914" height="132" key="GridCell.Tab.0.right" timestamp="1601897342582">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="128" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601891479228" />
-    <state width="1877" height="134" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601633438930" />
+    <state width="914" height="132" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601897342582" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601549512617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -283,11 +283,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="222" y="125" key="new project wizard/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1599460592698" />
-    <state x="539" y="233" key="run.anything.popup" timestamp="1601465349530">
-      <screen x="0" y="0" width="1680" height="1010" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601897500239">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="233" key="run.anything.popup/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601465349530" />
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599722942384" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601897500239" />
     <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1600032070160">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
