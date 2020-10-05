@@ -17,11 +17,7 @@ public class Praktijk extends Applet {
         confirm = new Button("ok");
         confirm.addActionListener(new InputListener());
         add(confirm);
-        for (int j = 0; j < i; j++) {
-            txtfieldarray[i] = new TextField("", 10);
-            add(txtfieldarray[i]);
-            repaint();
-        }
+
     }
 
 
@@ -32,17 +28,32 @@ public class Praktijk extends Applet {
 
     class InputListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            TextField b = new TextField("1230", 10);
+            add(b);
+            System.out.println(b);
+            repaint();
+            /*
             System.out.println("button pressed");
             if (i>=9) {
                 i = 20;
-                repaint();
+                System.out.println(i);
             }
             else {
                 i++;
+                i++;
                 System.out.println(i);
-                repaint();
             }
+
+            for (int j = 0; j < i; j++) {
+                txtfieldarray[j] = new TextField("", 10);
+                System.out.println(j);
+                add(txtfieldarray[j]);
+                //repaint();
+            }
+
             repaint();
+            */
+
         }
     }
 }
