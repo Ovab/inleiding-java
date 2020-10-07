@@ -20,8 +20,8 @@ public class H11_8 extends Applet {
         for(teller = 0; teller <100; teller++) {
             y += 10;
             x += 10;
-            b -= 5;
-            a -= 5;
+            b -= 10;
+            a -= 10;
 
 
             g.drawArc(100, 100, x, y, 0, 360);

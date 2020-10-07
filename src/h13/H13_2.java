@@ -1,13 +1,12 @@
-package h01;
+package h13;
 
 import java.applet.Applet;
 import java.awt.*;
 
-public class Base_Applet extends Applet {
-    int x[]={100,70,130};
-    int y[]={50,100,100};
+public class H13_2 extends Applet {
 
     public void init() {
+setBackground(Color.red);
 
 
     }
@@ -16,11 +15,11 @@ public class Base_Applet extends Applet {
 
 
     public void paint(Graphics g) {
-g.drawPolygon(x,y , 3);
-
-
+        g.setColor(Color.black);
+            int x1 =+50;
+            g.fillRect(50, 15, 100,5);
+        }
     }
-}
 
 
 
