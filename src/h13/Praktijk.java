@@ -49,14 +49,14 @@ public class Praktijk extends Applet {
 
 
     void boom(Graphics g, int x1, int y1) {
-        // teken een driehoek m.b.v. de meegegeven data (parameters)
+        //building 1 tree
         g.setColor(Color.BLACK);
         g.fillRect(x1, y1, 50, 150);
         g.setColor(Color.green);
         g.fillArc(x1-10, y1-30, 100, 100, 0, 360);
 
     }
-
+        //loop for forrest
     void bos(Graphics g, int linkhoekX, int linkhoekY, int rij, int kolom) {
         for (int i = 0; i < rij; i++) {
             for (int j = 0; j < kolom; j++) {
