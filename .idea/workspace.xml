@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2326a0dc-408f-4896-83aa-8a9c792bf3e0" name="Default Changelist" comment="FINALLLY 12.3!!!!!!">
-      <change afterPath="$PROJECT_DIR$/src/h11/H11_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h11/oprd11_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/H11_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h14/H14_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,19 +55,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/SkyblockAddons-master/SkyblockAddons-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bavof\Documents\GitHub\inleiding-java\src\h07" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.H14_1">
+  <component name="RunManager" selected="Applet.H14_2">
     <configuration name="H13_2" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h13.H13_2" />
       <module name="inleiding-java" />
@@ -89,6 +89,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="H14_2" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h14.H14_2" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Praktijk" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h13.Praktijk" />
       <module name="inleiding-java" />
@@ -96,27 +103,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boom" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.boom" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Applet.H13_2" />
-      <item itemvalue="Applet.H13_3" />
-      <item itemvalue="Applet.Praktijk" />
-      <item itemvalue="Applet.boom" />
-      <item itemvalue="Applet.H14_1" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.H14_2" />
         <item itemvalue="Applet.H14_1" />
-        <item itemvalue="Applet.Praktijk" />
-        <item itemvalue="Applet.boom" />
-        <item itemvalue="Applet.H13_3" />
-        <item itemvalue="Applet.H13_2" />
       </list>
     </recent_temporary>
   </component>
@@ -199,29 +189,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="421" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601282289674" />
-    <state width="1877" height="129" key="GridCell.Tab.0.bottom" timestamp="1602241245430">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1603057581693">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428203" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603057581693" />
     <state width="1877" height="129" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602241245430" />
-    <state width="1877" height="129" key="GridCell.Tab.0.center" timestamp="1602241245430">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1603057581692">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428202" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603057581692" />
     <state width="1877" height="129" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602241245430" />
-    <state width="1877" height="129" key="GridCell.Tab.0.left" timestamp="1602241245429">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1603057581692">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428202" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603057581692" />
     <state width="1877" height="129" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602241245429" />
-    <state width="1877" height="129" key="GridCell.Tab.0.right" timestamp="1602241245430">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1603057581692">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428203" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603057581692" />
     <state width="1877" height="129" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602241245430" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602240656467">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -248,10 +242,11 @@
     </state>
     <state x="266" y="522" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599646896396" />
     <state x="426" y="321" key="RollbackChangesDialog/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1600250266717" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1601535942119">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="403" y="159" key="SettingsEditor" timestamp="1603056788731">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="323" y="207" key="SettingsEditor/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1601466389232" />
+    <state x="403" y="159" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1603056788731" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601535942119" />
     <state x="187" y="340" key="Vcs.Push.Dialog.v2" timestamp="1600176117908">
       <screen x="0" y="0" width="1680" height="1010" />
