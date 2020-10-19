@@ -15,6 +15,7 @@ public class H14_2 extends Applet {
         for (int i = 0; i < deck.length; i++){
             System.out.println(distributeCards());
         }
+        System.out.println(add1(0, 0, 5000));
 
     }
 
@@ -29,7 +30,7 @@ public class H14_2 extends Applet {
     private void fillDeck (){
         String[] colors = {"Green", "Red", "Black", "Blauw"};
         String[] type = {"Clubs", "Spades", "Hearts", "Diamonds"};
-        String[] numbers = {"1", "2"};
+        String[] numbers = {"1", "2", "3"};
         int lengthDeck = colors.length * type.length * numbers.length;
         deck = new String[lengthDeck];
         int i = 0;
@@ -75,6 +76,12 @@ public class H14_2 extends Applet {
     void drawGraphicCard(Graphics g,int x, int y, int xOffset, int yOffset) {
         x += xOffset;
         y += yOffset;
+    }
+    int add1 (int sum, int current, int end) {
+        if (current == end) return sum;
+        sum++; current++;
+        sum = add1(sum, current, end);
+        return sum;
     }
 }
 
