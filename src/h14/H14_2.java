@@ -2,6 +2,7 @@ package h14;
 
 import java.applet.Applet;
 import java.awt.*;
+import java.util.Random;
 
 public class H14_2 extends Applet {
     int randomcolorint, randomtypeint, randomint;
@@ -10,10 +11,11 @@ public class H14_2 extends Applet {
     String [] deck;
     String randomcard;
     public void init() {
-        deck = new String [52];
-        for (int i = 0; i < deck.length; i++) {
-            drawcard();
+        fillDeck();
+        for (int i = 0; i < deck.length; i++){
+            System.out.println(distributeCards());
         }
+
     }
 
 
@@ -24,9 +26,32 @@ public class H14_2 extends Applet {
         }
     }
 
+    private void fillDeck (){
+        String[] colors = {"Green", "Red", "Black", "Blauw"};
+        String[] type = {"Clubs", "Spades", "Hearts", "Diamonds"};
+        String[] numbers = {"1", "2"};
+        int lengthDeck = colors.length * type.length * numbers.length;
+        deck = new String[lengthDeck];
+        int i = 0;
+        //TO DO: recursief maken
+        for (int colorCount = 0; colorCount < colors.length; colorCount++){
+            for (int typeCount = 0; typeCount < type.length; typeCount++){
+                for (int numberCount = 0; numberCount < numbers.length; numberCount++){
+                    deck[i] = colors[colorCount] + " " + type[typeCount] + " " + numbers[numberCount];
+                    //System.out.println(deck[i]);
+                    i++;
+                }
+            }
+        }
+
+    }
+
+    private String distributeCards (){
+        return deelKaart();
+    }
 
     private String deelKaart() {
-        int random = (int) (Math.random() * deck.length);
+        int random = new Random().nextInt(deck.length);
         String kaart = deck[random];
 
         //vervang de inhoud van deck met een nieuwe lijst
@@ -47,28 +72,7 @@ public class H14_2 extends Applet {
         return kaart;
     }
 
-
-    void drawcard() {
-        //declaring values of the array
-        color = new String[3];
-        type = new String[4];
-        color[0] = "Black";
-        color[1] = "Red";
-        type[0] = "Spade";
-        type[1] = "Diamond";
-        type[2] = "Hearts";
-        type[3] = "Clubs";
-        //making random value for the colors
-        randomcolorint = (int) (Math.random() * 2 + 0);
-        //making random types
-        randomtypeint = (int) (Math.random() * 4 + 0);
-        //making random types
-        randomint = (int) (Math.random() * 6 + 1);
-        randomcard = color[randomcolorint]+" " +type[randomtypeint]+" "+ randomint;
-        System.out.println(randomcard);
-    }
     void drawGraphicCard(Graphics g,int x, int y, int xOffset, int yOffset) {
-        drawcard();
         x += xOffset;
         y += yOffset;
     }
