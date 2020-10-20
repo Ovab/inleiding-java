@@ -13,10 +13,8 @@ public class H14_1 extends Applet {
         type = new String[4];
         color[0] = "Black";
         color[1] = "Red";
-        type[0] = "Spade";
-        type[1] = "Diamond";
-        type[2] = "Hearts";
-        type[3] = "IDK the 4th one";
+        String[] type = {"♣", "♠", "♥", "♦"};
+        String [] specials = {"Jack", "Queen", "King", "Ace"};
         //making random value for the colors
             randomcolorint = (int) (Math.random() * 2 + 0);
             System.out.println(color[randomcolorint]);

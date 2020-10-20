@@ -2,7 +2,6 @@ package h14;
 
 import java.applet.Applet;
 import java.awt.*;
-import java.sql.SQLOutput;
 import java.util.Random;
 
 public class H14_2 extends Applet {
@@ -12,44 +11,39 @@ public class H14_2 extends Applet {
     String [] deck;
     String randomcard;
     public void init() {
+        deck = new String[52];
         fillDeck();
         for (int i = 0; i < deck.length; i++){
             System.out.println(distributeCards());
         }
         //System.out.println(add1(0, 0, 5000));
-
     }
 
 
 
     public void paint(Graphics g) {
-        for (int i = 0; i < deck.length; i++) {
-            drawGraphicCard(g, 50, 50, 20, 20);
-        }
+            boom(g, 10, 50);
     }
 
     private void fillDeck (){
-        String[] colors = {"Red", "Black"};
         String[] type = {"♣", "♠", "♥", "♦"};
-        String[] numbers = {"2", "3", "4", "5", "6", "7", "8", "9", "10"};
-        String [] specials = {"Jack", "Queen", "King", "Ace"};
-        int lengthDeck = colors.length * type.length * numbers.length;
-        deck = new String[lengthDeck];
+        String[] numbers = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
+        String [] specials = {};
+        int lengthDeck =type.length * numbers.length;
+        //deck = new String[lengthDeck];
         int i = 0;
         //TO DO: recursief maken
-        for (int colorCount = 0; colorCount < colors.length; colorCount++){
             for (int typeCount = 0; typeCount < type.length; typeCount++){
                 for (int numberCount = 0; numberCount < numbers.length; numberCount++){
-                    deck[i] = colors[colorCount] + " " + type[typeCount] + " " + numbers[numberCount];
+                    deck[i] = type[typeCount] + " " + numbers[numberCount];
                     //System.out.println(deck[i]);
                     i++;
                 }
-            }
+            }        System.out.println(i);
         }
-        System.out.println(i);
-    }
 
-    private String distributeCards (){
+
+    private String distributeCards(){
         return deelKaart();
     }
 
@@ -75,9 +69,12 @@ public class H14_2 extends Applet {
         return kaart;
     }
 
-    void drawGraphicCard(Graphics g,int x, int y, int xOffset, int yOffset) {
-        x += xOffset;
-        y += yOffset;
+    void boom(Graphics g, int x1, int y1) {
+        for (int i = 0; i < deck.length; i++) {
+            g.drawString(distributeCards(),x1, y1);
+            y1 += 20;
+        }
+
     }
     /*
     int add1 (int sum, int current, int end) {

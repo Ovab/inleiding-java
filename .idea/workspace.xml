@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2326a0dc-408f-4896-83aa-8a9c792bf3e0" name="Default Changelist" comment="FINALLLY 12.3!!!!!!">
+      <change afterPath="$PROJECT_DIR$/src/h14/H14_2_reg_way.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h14/H14_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/H14_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h14/H14_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/H14_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +70,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Applet.H14_2">
-    <configuration name="H13_2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h13.H13_2" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="H13_3" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h13.H13_3" />
       <module name="inleiding-java" />
@@ -96,6 +91,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="H14_2_reg_way" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h14.H14_2_reg_way" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Praktijk" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h13.Praktijk" />
       <module name="inleiding-java" />
@@ -104,16 +106,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Applet.H13_2" />
       <item itemvalue="Applet.H13_3" />
       <item itemvalue="Applet.H14_1" />
       <item itemvalue="Applet.H14_2" />
       <item itemvalue="Applet.Praktijk" />
+      <item itemvalue="Applet.H14_2_reg_way" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Applet.H14_2" />
         <item itemvalue="Applet.H14_1" />
+        <item itemvalue="Applet.H14_2_reg_way" />
       </list>
     </recent_temporary>
   </component>
@@ -196,33 +199,33 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="784" y="421" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601282289674" />
-    <state width="1637" height="852" key="GridCell.Tab.0.bottom" timestamp="1603129541806">
+    <state width="1637" height="138" key="GridCell.Tab.0.bottom" timestamp="1603190066236">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428203" />
-    <state width="1637" height="852" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603129541806" />
+    <state width="1637" height="138" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1603190066236" />
     <state width="1877" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603110422127" />
-    <state width="1637" height="852" key="GridCell.Tab.0.center" timestamp="1603129541806">
+    <state width="1637" height="138" key="GridCell.Tab.0.center" timestamp="1603190066236">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428202" />
-    <state width="1637" height="852" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603129541806" />
+    <state width="1637" height="138" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1603190066236" />
     <state width="1877" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603110422127" />
-    <state width="1637" height="852" key="GridCell.Tab.0.left" timestamp="1603129541806">
+    <state width="1637" height="138" key="GridCell.Tab.0.left" timestamp="1603190066236">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428202" />
-    <state width="1637" height="852" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603129541806" />
+    <state width="1637" height="138" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1603190066236" />
     <state width="1877" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603110422127" />
-    <state width="1637" height="852" key="GridCell.Tab.0.right" timestamp="1603129541806">
+    <state width="1637" height="138" key="GridCell.Tab.0.right" timestamp="1603190066236">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="1007" height="272" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1050.1640@0.0.1050.1640" timestamp="1599647477585" />
     <state width="1637" height="122" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602068428203" />
-    <state width="1637" height="852" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603129541806" />
+    <state width="1637" height="138" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1603190066236" />
     <state width="1877" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603110422127" />
     <state width="1877" height="786" key="GridCell.Tab.1.bottom" timestamp="1603108478542">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -289,10 +292,11 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="222" y="125" key="new project wizard/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1599460592698" />
-    <state x="617" y="259" key="refactoring.ChangeSignatureDialog" timestamp="1602157952561">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="540" y="252" key="refactoring.ChangeSignatureDialog" timestamp="1603184929186">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="540" y="252" key="refactoring.ChangeSignatureDialog/-1920.0.1920.1040/0.0.1680.1010@0.0.1680.1010" timestamp="1602060950592" />
+    <state x="540" y="252" key="refactoring.ChangeSignatureDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1603184929186" />
     <state x="617" y="259" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602157952561" />
     <state x="539" y="233" key="run.anything.popup" timestamp="1601983501175">
       <screen x="0" y="0" width="1680" height="1010" />
