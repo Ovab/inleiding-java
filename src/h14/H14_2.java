@@ -5,31 +5,35 @@ import java.awt.*;
 import java.util.Random;
 
 public class H14_2 extends Applet {
-    int randomcolorint, randomtypeint, randomint;
-    String [] color;
-    String [] type;
     String [] deck;
-    String randomcard;
     public void init() {
-        deck = new String[52];
+        setSize(1000,1000);
         fillDeck();
-        for (int i = 0; i < deck.length; i++){
-            System.out.println(distributeCards());
-        }
         //System.out.println(add1(0, 0, 5000));
     }
 
 
 
     public void paint(Graphics g) {
-            boom(g, 10, 50);
+        for (int i = 0; i < deck.length; i++){
+            System.out.println(distributeCards());
+        }
+        g.drawString("player 1", 10, 30);
+            drawcards(g, 10, 50);
+        g.drawString("player 2", 100, 30);
+            drawcards(g, 100, 50);
+        g.drawString("player 3", 160, 30);
+             drawcards(g, 160, 50);
+        g.drawString("player 4", 210, 30);
+            drawcards(g, 210, 50);
     }
 
     private void fillDeck (){
-        String[] type = {"♣", "♠", "♥", "♦"};
-        String[] numbers = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
-        String [] specials = {};
+        String[] type = {"♣", "♠", "♥", "♦", "♣", "♠", "♥", "♦"};
+        String[] numbers = {"Ace","2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
         int lengthDeck =type.length * numbers.length;
+        //lengthDeck = lengthDeck*2;
+        deck = new String[lengthDeck];
         //deck = new String[lengthDeck];
         int i = 0;
         //TO DO: recursief maken
@@ -69,8 +73,8 @@ public class H14_2 extends Applet {
         return kaart;
     }
 
-    void boom(Graphics g, int x1, int y1) {
-        for (int i = 0; i < deck.length; i++) {
+    void drawcards(Graphics g, int x1, int y1) {
+        for (int i = 0; i < deck.length*4; i++) {
             g.drawString(distributeCards(),x1, y1);
             y1 += 20;
         }
