@@ -5,6 +5,9 @@ import java.awt.*;
 import java.util.Random;
 
 public class H14_2_reg_way extends Applet {
+    int randomcolorint, randomtypeint, randomint;
+    String [] color;
+    String [] type;
     String [] deck;
     public void init() {
         deck = new String[52];
@@ -38,6 +41,24 @@ public class H14_2_reg_way extends Applet {
         deck = hulpLijst;
         //de methode geeft de random kaart terug
         return kaart;
+    }
+    void generatecard (){
+        //declaring values of the array
+        color = new String[3];
+        type = new String[4];
+        color[0] = "Black";
+        color[1] = "Red";
+        String[] type = {"♣", "♠", "♥", "♦"};
+        String [] specials = {"Jack", "Queen", "King", "Ace"};
+        //making random value for the colors
+        randomcolorint = (int) (Math.random() * 2 + 0);
+        System.out.println(color[randomcolorint]);
+        //making random types
+        randomtypeint = (int) (Math.random() * 4 + 0);
+        System.out.println(type[randomtypeint]);
+        //making random types
+        randomint = (int) (Math.random() * 6 + 1);
+        System.out.println(randomint);
     }
 }
 

@@ -20,12 +20,7 @@ public class H14_2 extends Applet {
         }
         g.drawString("player 1", 10, 30);
             drawcards(g, 10, 50);
-        g.drawString("player 2", 100, 30);
-            drawcards(g, 100, 50);
-        g.drawString("player 3", 160, 30);
-             drawcards(g, 160, 50);
-        g.drawString("player 4", 210, 30);
-            drawcards(g, 210, 50);
+
     }
 
     private void fillDeck (){
@@ -74,7 +69,7 @@ public class H14_2 extends Applet {
     }
 
     void drawcards(Graphics g, int x1, int y1) {
-        for (int i = 0; i < deck.length*4; i++) {
+        for (int i = 0; i < deck.length; i++) {
             g.drawString(distributeCards(),x1, y1);
             y1 += 20;
         }
