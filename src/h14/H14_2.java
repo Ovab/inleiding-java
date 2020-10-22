@@ -1,14 +1,27 @@
 package h14;
 
+import sauses.LoadAndPlay;
+
 import java.applet.Applet;
+import java.applet.AudioClip;
 import java.awt.*;
+import java.net.URL;
 import java.util.Random;
+import java.net.URL;
 
 public class H14_2 extends Applet {
     String [] deck;
+    int cardsperplayer;
+
+    private URL pad;
+    private AudioClip sound;
+
     public void init() {
+        pad = LoadAndPlay.class.getResource("/sauses/");
+        sound = getAudioClip(pad, "scream.wav");
         setSize(1000,1000);
         fillDeck();
+        cardsperplayer = deck.length/4;
         //System.out.println(add1(0, 0, 5000));
     }
 
@@ -16,30 +29,37 @@ public class H14_2 extends Applet {
 
     public void paint(Graphics g) {
         for (int i = 0; i < deck.length; i++){
-            System.out.println(distributeCards());
+            //System.out.println(distributeCards());
         }
         g.drawString("player 1", 10, 30);
-            drawcards(g, 10, 50);
-
+            paintcards(g, 10, 50);
+        g.drawString("player 2", 70, 30);
+        paintcards(g, 70, 50);
+        g.drawString("player 3", 120, 30);
+        paintcards(g, 120, 50);
+        g.drawString("player 4", 170, 30);
+        paintcards(g, 170, 50);
+        sound.play();
     }
 
-    private void fillDeck (){
-        String[] type = {"♣", "♠", "♥", "♦", "♣", "♠", "♥", "♦"};
-        String[] numbers = {"Ace","2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
-        int lengthDeck =type.length * numbers.length;
+    private void fillDeck () {
+        String[] type = {"♣", "♠", "♥", "♦"};
+        String[] numbers = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
+        int lengthDeck = type.length * numbers.length;
         //lengthDeck = lengthDeck*2;
         deck = new String[lengthDeck];
         //deck = new String[lengthDeck];
         int i = 0;
         //TO DO: recursief maken
-            for (int typeCount = 0; typeCount < type.length; typeCount++){
-                for (int numberCount = 0; numberCount < numbers.length; numberCount++){
-                    deck[i] = type[typeCount] + " " + numbers[numberCount];
-                    //System.out.println(deck[i]);
-                    i++;
-                }
-            }        System.out.println(i);
+        for (int typeCount = 0; typeCount < type.length; typeCount++) {
+            for (int numberCount = 0; numberCount < numbers.length; numberCount++) {
+                deck[i] = type[typeCount] + " " + numbers[numberCount];
+                //System.out.println(deck[i]);
+                i++;
+            }
         }
+        System.out.println(i);
+    }
 
 
     private String distributeCards(){
@@ -68,8 +88,8 @@ public class H14_2 extends Applet {
         return kaart;
     }
 
-    void drawcards(Graphics g, int x1, int y1) {
-        for (int i = 0; i < deck.length; i++) {
+    void paintcards(Graphics g, int x1, int y1) {
+        for (int i = 0; i < cardsperplayer; i++) {
             g.drawString(distributeCards(),x1, y1);
             y1 += 20;
         }
