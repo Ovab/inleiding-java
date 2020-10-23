@@ -5,7 +5,7 @@ import java.applet.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Praktijk14 extends Applet {
+public class Praktijk extends Applet {
 
     Button restartbutton;
     TextField txtvak;

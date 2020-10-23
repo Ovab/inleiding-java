@@ -8,7 +8,6 @@ import java.awt.event.ActionListener;
 public class Praktijk extends Applet {
     TextField[] txtfieldarray;
     Button confirm;
-    int i;
 
 
     public void init() {

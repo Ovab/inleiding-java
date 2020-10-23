@@ -4,11 +4,6 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class H13_2 extends Applet {
-    int x1 = 100;
-    int y1 = 100;
-    int x2 = 100;
-    int y2 = 50;
-
     public void init() {
 
 

@@ -7,7 +7,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class TEst extends Applet {
-    int [] veldin;
     int [] getallen;
     TextField [] fieldarray;
     Button okknop;

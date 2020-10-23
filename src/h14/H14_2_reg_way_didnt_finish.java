@@ -1,10 +1,15 @@
+/*
+Warning: I did not finish this code because I was a stubborn shit and made my own adaptive method of drawing cards.
+So this code is not finished, i only worked on it while waiting for help from a teacher as a backup.
+ */
+
 package h14;
 
 import java.applet.Applet;
 import java.awt.*;
 import java.util.Random;
 
-public class H14_2_reg_way extends Applet {
+public class H14_2_reg_way_didnt_finish extends Applet {
     int randomcolorint, randomtypeint, randomint;
     String [] color;
     String [] type;

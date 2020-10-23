@@ -5,7 +5,6 @@ import java.awt.*;
 
 public class H12_2 extends Applet {
 Button [] knop;
-int teller;
 
 
     public void init() {

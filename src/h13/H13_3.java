@@ -1,8 +1,5 @@
 package h13;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import h08.H8_3;
-
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.ActionEvent;

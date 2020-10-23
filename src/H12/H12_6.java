@@ -28,10 +28,10 @@ public class H12_6 extends Applet {
 
 
     public void paint(Graphics g) {
-        if (jesno == true) {
+        if (jesno) {
             g.drawString("Number found: index "+ out + " en komt " + times + " keer voor", 50 ,120);
         }
-        if (jesno == false) {
+        if (!jesno) {
             g.drawString("ERROR: FUNNY NUMBER NOT FOUND", 50 ,120);
         }
     }

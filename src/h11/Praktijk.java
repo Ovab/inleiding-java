@@ -50,7 +50,7 @@ public class Praktijk extends Applet {
             y = 0;
 
             for (toet = 0; toet < 10; toet++) {
-                uit = getal1 * 1;
+                uit = getal1;
                 uit1 = getal1 * 2;
                 uit2 = getal1 * 3;
                 uit3 = getal1 * 4;
