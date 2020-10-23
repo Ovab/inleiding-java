@@ -7,7 +7,6 @@ import java.applet.AudioClip;
 import java.awt.*;
 import java.net.URL;
 import java.util.Random;
-import java.net.URL;
 
 public class H14_2 extends Applet {
     String [] deck;
