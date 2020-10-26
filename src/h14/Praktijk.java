@@ -130,7 +130,6 @@ public class Praktijk extends Applet {
                     amount = 0;
                     break;
                 }
-                repaint();
 
                 //player win conition + consequence
                 if (amount == 0 && Playerturn) {
@@ -138,7 +137,9 @@ public class Praktijk extends Applet {
                     repaint();
                     break;
                 }
+                repaint();
             }
+
         }
     }
     public class Resetlistener implements ActionListener {

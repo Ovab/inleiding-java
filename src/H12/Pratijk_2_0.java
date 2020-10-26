@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class Pratijk_2_0 extends Applet {
     TextField txtfield, txtfield2;
     Button confirm;
-    String nummer, naam;
+    String nummer = "", naam = "";
 
 
     public void init() {
